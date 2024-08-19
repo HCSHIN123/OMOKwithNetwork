@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{f92dcaa4-f20d-44b1-9e65-4ec6ebb64b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{59e68246-de02-4dfa-83a7-b4959b0604b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9a349dee-4da7-47b7-883f-568d47b0d45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\CorePCH">
+      <UniqueIdentifier>{b2509591-4c0d-46c6-af5f-3ecc8134e16a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{f9d24cbe-dc85-463e-94cb-5a901b123dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread\ThreadManager">
+      <UniqueIdentifier>{6228816e-8075-41d7-aa4e-adeaead7630e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\CloreTLS">
+      <UniqueIdentifier>{1a02dc2f-353e-49ae-8b64-a43c9e7023c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread\Lock">
+      <UniqueIdentifier>{5b3c8b8a-612c-479d-baeb-566d0fe61564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread\DeadLockTracking">
+      <UniqueIdentifier>{c1e4b33d-cbca-4a29-85e2-1ceaf6e35743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\NetworkAddress">
+      <UniqueIdentifier>{8fa99412-5a29-4a66-b09b-f57633f5697c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\SocketUtils">
+      <UniqueIdentifier>{6a54a8f8-2ef4-4507-b064-eca391d76ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\IOCPCore">
+      <UniqueIdentifier>{37cd8a7f-a816-4411-9ec4-92fdf9678481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\IOCPEvent">
+      <UniqueIdentifier>{3392b486-ae27-4a82-a51c-cc59b741a52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Listener">
+      <UniqueIdentifier>{8b0650ec-019d-4851-8a7b-47b1d943fce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Session">
+      <UniqueIdentifier>{6dfbaa2c-7aa4-41a2-8f92-cc0174851b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Service">
+      <UniqueIdentifier>{ee03446c-2250-4ee5-8a0d-d4c5b9bf1a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Service\ClientService">
+      <UniqueIdentifier>{43c404c1-e69e-4b56-938f-129591b52463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Service\ServerService">
+      <UniqueIdentifier>{3e692087-3fb1-4ea2-8df3-1f4a01b89dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\RecvBuffer">
+      <UniqueIdentifier>{50276b84-3e81-4ad3-a0d7-407af599d565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\SendBuffer">
+      <UniqueIdentifier>{60dd6763-63d7-488c-9d1d-203c14bb8864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\SendBuffer\SendBufferManager">
+      <UniqueIdentifier>{59c7ce1d-cf21-481a-b64f-50024bba2afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Session\PacketSession">
+      <UniqueIdentifier>{8a2bfcc9-a8f0-4c70-972d-8c239e8bc2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\RecvBuffer\RecvBufferHelper">
+      <UniqueIdentifier>{687b5793-92c6-48b9-9981-8bcd350566a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\SendBuffer\SendBufferHelper">
+      <UniqueIdentifier>{620e5ec6-d4aa-4d93-ad9e-c33f7b30fab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\SendBuffer\SendBufferPool">
+      <UniqueIdentifier>{deab92fa-7823-4cf3-a366-233c748e6940}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreMecro.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CorePCH.h">
+      <Filter>Core\CorePCH</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreTLS.h">
+      <Filter>Core\CloreTLS</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>Thread\ThreadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Thread\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadLockTracking.h">
+      <Filter>Thread\DeadLockTracking</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkAddress.h">
+      <Filter>Network\NetworkAddress</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketUtils.h">
+      <Filter>Network\SocketUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPCore.h">
+      <Filter>Network\IOCPCore</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPEvent.h">
+      <Filter>Network\IOCPEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Network\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Network\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Network\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientService.h">
+      <Filter>Network\Service\ClientService</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerService.h">
+      <Filter>Network\Service\ServerService</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvBuffer.h">
+      <Filter>Network\RecvBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="SendBuffer.h">
+      <Filter>Network\SendBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="SendBufferPool.h">
+      <Filter>Network\SendBuffer\SendBufferPool</Filter>
+    </ClInclude>
+    <ClInclude Include="SendBufferManager.h">
+      <Filter>Network\SendBuffer\SendBufferManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketSession.h">
+      <Filter>Network\Session\PacketSession</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvBufferHelper.h">
+      <Filter>Network\RecvBuffer\RecvBufferHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="SendBufferHelper.h">
+      <Filter>Network\SendBuffer\SendBufferHelper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CorePCH.cpp">
+      <Filter>Core\CorePCH</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreTLS.cpp">
+      <Filter>Core\CloreTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>Thread\ThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>Thread\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadLockTracking.cpp">
+      <Filter>Thread\DeadLockTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkAddress.cpp">
+      <Filter>Network\NetworkAddress</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketUtils.cpp">
+      <Filter>Network\SocketUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPCore.cpp">
+      <Filter>Network\IOCPCore</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPEvent.cpp">
+      <Filter>Network\IOCPEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>Network\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Network\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>Network\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientService.cpp">
+      <Filter>Network\Service\ClientService</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerService.cpp">
+      <Filter>Network\Service\ServerService</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvBuffer.cpp">
+      <Filter>Network\RecvBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="SendBuffer.cpp">
+      <Filter>Network\SendBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="SendBufferPool.cpp">
+      <Filter>Network\SendBuffer\SendBufferPool</Filter>
+    </ClCompile>
+    <ClCompile Include="SendBufferManager.cpp">
+      <Filter>Network\SendBuffer\SendBufferManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketSession.cpp">
+      <Filter>Network\Session\PacketSession</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvBufferHelper.cpp">
+      <Filter>Network\RecvBuffer\RecvBufferHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="SendBufferHelper.cpp">
+      <Filter>Network\SendBuffer\SendBufferHelper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

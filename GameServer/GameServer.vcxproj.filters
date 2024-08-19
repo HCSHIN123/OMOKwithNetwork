@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{593c6a17-58af-41dd-b74c-181dbcb558bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{e592be73-b887-46c7-9f1f-f06908b0bb90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\SessionManager">
+      <UniqueIdentifier>{1a94b6e7-e93f-4fcc-ad48-1e3452ecd360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\SessionManager\GameSession">
+      <UniqueIdentifier>{37d5a94e-d70d-4567-9bd0-e53e2ffa2a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\ProtoBuff">
+      <UniqueIdentifier>{b227c69d-3846-456a-9d84-c561c9b6ff95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\ClientPacketHandler">
+      <UniqueIdentifier>{f6dcf83d-9ea2-4c0c-8361-9a673e74fde5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Struct">
+      <UniqueIdentifier>{057fc67d-ccae-431d-8aef-c3cfd8210b95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionManager.cpp">
+      <Filter>Main\SessionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSession.cpp">
+      <Filter>Main\SessionManager\GameSession</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientPacketHandler.cpp">
+      <Filter>Main\ClientPacketHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="test.pb.cc">
+      <Filter>Main\ProtoBuff</Filter>
+    </ClCompile>
+    <ClCompile Include="enum.pb.cc">
+      <Filter>Main\ProtoBuff</Filter>
+    </ClCompile>
+    <ClCompile Include="struct.pb.cc">
+      <Filter>Main\ProtoBuff</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>Main\SessionManager\GameSession</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionManager.h">
+      <Filter>Main\SessionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSession.h">
+      <Filter>Main\SessionManager\GameSession</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPacketHandler.h">
+      <Filter>Main\ClientPacketHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="test.pb.h">
+      <Filter>Main\ProtoBuff</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.pb.h">
+      <Filter>Main\ProtoBuff</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.pb.h">
+      <Filter>Main\ProtoBuff</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>Main\SessionManager\GameSession</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Main\Struct</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\protoc-21.12-win64\bin\enum.proto">
+      <Filter>Main\ProtoBuff</Filter>
+    </None>
+    <None Include="..\protoc-21.12-win64\bin\struct.proto">
+      <Filter>Main\ProtoBuff</Filter>
+    </None>
+    <None Include="..\protoc-21.12-win64\bin\test.proto">
+      <Filter>Main\ProtoBuff</Filter>
+    </None>
+    <None Include="..\protoc-21.12-win64\bin\GeneratePackets.bat">
+      <Filter>Main\ProtoBuff</Filter>
+    </None>
+  </ItemGroup>
+</Project>

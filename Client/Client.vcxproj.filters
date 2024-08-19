@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{06a58412-d8e0-445c-ad14-2520ada49c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{f6c5bcec-e8f4-4a53-9f35-ce15efcffdbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerPacketHandler">
+      <UniqueIdentifier>{832e8afc-3cb1-419b-86d5-ce0243074fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoBuff">
+      <UniqueIdentifier>{7305b02a-b140-4e67-ac6b-db215a8fd974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerSession">
+      <UniqueIdentifier>{d18307ad-e830-4978-8675-e2693d0dc52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\01.Header">
+      <UniqueIdentifier>{47b56d89-7e4f-4cb9-8ba2-5244cad2fe4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02.GameCore">
+      <UniqueIdentifier>{35645e22-5829-4ce2-b88e-02dd6ea611c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager">
+      <UniqueIdentifier>{3caa5522-f00d-4306-962e-3ccf140ff111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\InputManager">
+      <UniqueIdentifier>{d3c6c8cc-5c3a-438e-b3fb-a17de545d719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\NetworkManager">
+      <UniqueIdentifier>{4f919b5c-9f89-498e-809a-2af3be87ef9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\ResourceManager">
+      <UniqueIdentifier>{ceb82e66-5b20-44ee-8018-da32757f187b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\SceneManager">
+      <UniqueIdentifier>{442bf9bb-17a8-4fb1-9c60-bc0a842947c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object">
+      <UniqueIdentifier>{619ef9a3-b56f-4044-80a5-fb44a1502add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Resource">
+      <UniqueIdentifier>{2eb656a5-3e83-464b-9398-2a10072c7db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06.Scene">
+      <UniqueIdentifier>{258b787c-2a91-4cbb-bd05-42efb5824adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Resource\Texture">
+      <UniqueIdentifier>{a4f29e37-91e9-4698-b120-0967fc46ed0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\PathManger">
+      <UniqueIdentifier>{d76a8158-b318-4b2c-9778-f6ebf7d1ca6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06.Scene\MainScene">
+      <UniqueIdentifier>{2b0b83a9-5121-4e70-9d13-954a14361eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Button">
+      <UniqueIdentifier>{3bb1c731-cd6c-438d-99c0-a1156ba54862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06.Scene\LobbyScene">
+      <UniqueIdentifier>{89c2cff3-2f7d-49ae-aca7-3a0446375839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Button\RoomButton">
+      <UniqueIdentifier>{93133426-60fa-43a0-8f10-a73010597acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06.Scene\GameScene">
+      <UniqueIdentifier>{7f4e16b5-d057-4cd0-82f2-941d10631d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\GameBoard">
+      <UniqueIdentifier>{47e639d9-b235-42b5-98c7-a9dc8705bc08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ServerPacketHandler.h">
+      <Filter>ServerPacketHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.pb.h">
+      <Filter>ProtoBuff</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.pb.h">
+      <Filter>ProtoBuff</Filter>
+    </ClInclude>
+    <ClInclude Include="test.pb.h">
+      <Filter>ProtoBuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSession.h">
+      <Filter>ServerSession</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore.h">
+      <Filter>Engine\02.GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Engine\03.Manager\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>Engine\03.Manager\NetworkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameResource.h">
+      <Filter>Engine\05.Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\05.Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine\06.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Engine\03.Manager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine\03.Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Engine\04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>Engine\03.Manager\PathManger</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Engine\06.Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Engine\04.Object\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyScene.h">
+      <Filter>Engine\06.Scene\LobbyScene</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomButton.h">
+      <Filter>Engine\04.Object\Button\RoomButton</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Engine\06.Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>Engine\04.Object\GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoard.h">
+      <Filter>Engine\04.Object\GameBoard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ServerPacketHandler.cpp">
+      <Filter>ServerPacketHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="enum.pb.cc">
+      <Filter>ProtoBuff</Filter>
+    </ClCompile>
+    <ClCompile Include="struct.pb.cc">
+      <Filter>ProtoBuff</Filter>
+    </ClCompile>
+    <ClCompile Include="test.pb.cc">
+      <Filter>ProtoBuff</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCore.cpp">
+      <Filter>Engine\02.GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Engine\03.Manager\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>Engine\03.Manager\NetworkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameResource.cpp">
+      <Filter>Engine\05.Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\05.Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine\06.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Engine\03.Manager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine\03.Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Engine\04.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>Engine\03.Manager\PathManger</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Engine\06.Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Engine\04.Object\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyScene.cpp">
+      <Filter>Engine\06.Scene\LobbyScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomButton.cpp">
+      <Filter>Engine\04.Object\Button\RoomButton</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Engine\06.Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>Engine\04.Object\GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBoard.cpp">
+      <Filter>Engine\04.Object\GameBoard</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
